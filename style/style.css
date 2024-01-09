@@ -18,6 +18,7 @@ main {
     background-blend-mode: multiply;
     display: flex;
     text-align: center;
+
 }
 
 .header-title-1 {
@@ -32,7 +33,6 @@ main {
 .header-title-2 {
     padding: 0px 344px 177px 344px;
     color: #FFF;
-    /* text-align: center; */
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
@@ -40,12 +40,11 @@ main {
 }
 
 /* 60 % discount section */
-.discount-section-60 {
-    
-}
-.dis-div{
+.discount-section-60 {}
+
+.dis-div {
     margin: 120px 259px;
-     
+
 }
 
 .off-title {
@@ -65,7 +64,7 @@ main {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    
+
 
 
 }
@@ -76,7 +75,7 @@ main {
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    
+
 
 
 }
@@ -84,32 +83,24 @@ main {
 /* wellcome section */
 .wellcome-baner {
 
-    background: url('../resources/Vectorrr.png') ,linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    /* background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
-
+    background: url('../resources/Vectorrr.png'), linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     justify-content: center;
     background-blend-mode: multiply;
     display: flex;
+    border-radius: 16px;
 
 }
 
-.wellcome-liner {
-
-    
-
-}
 
 .welcome-title {
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
-    font-style: normal;
     font-weight: 900;
     line-height: 88px;
-    /* 137.5% */
     letter-spacing: 7.04px;
     margin: 126px 24px 24px 126px;
 
@@ -119,10 +110,8 @@ main {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
     margin: 0px 0px 48px 126px;
 
 }
@@ -142,7 +131,7 @@ main {
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-    text-transform: uppercase;
+    
 
 
 }
@@ -155,8 +144,9 @@ main {
 .place {
     text-align: center;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    margin-top: 140px;
+    margin-top: 120px;
     margin-bottom: 120px;
+    border-radius: 16px;
 }
 
 .place-title {
@@ -168,12 +158,9 @@ main {
     color: #070211;
     font-family: Inter;
     font-size: 32px;
-    font-style: normal;
     font-weight: 600;
     line-height: 56px;
-    text-transform: capitalize;
     margin: 0px;
-    /* margin: 100px 386px 48px 386px; */
 
 }
 
@@ -182,16 +169,13 @@ main {
     text-align: center;
     font-family: Inter;
     font-size: 32px;
-    font-style: normal;
     font-weight: 600;
     line-height: 56px;
-    /* 175% */
-    text-transform: capitalize;
 
 }
 
-.button{
-    padding: 0px 577px 110px 576px; 
+.button {
+    padding: 0px 577px 110px 576px;
     display: inline-flex;
     padding: 16px 32px;
     justify-content: center;
@@ -200,7 +184,7 @@ main {
     border-radius: 8px;
     background: #F00;
     margin-bottom: 110px;
-    
+
 }
 
 .join-btn {
@@ -208,10 +192,7 @@ main {
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
     background: none;
     border: none;
     padding: 16px 32px;
@@ -221,7 +202,9 @@ main {
 .coming-soon-section {
     display: flex;
     max-height: 7335px;
-    ;
+    margin-top: 120px;
+
+
 
 
 }
@@ -234,32 +217,26 @@ main {
 
 .new-offer {
     color: #F00;
-
-    font-family: Inter;
+font-family: Inter;
     font-size: 24px;
-    font-style: normal;
+   
     font-weight: 500;
-    line-height: normal;
+
 }
 
 .coming-soon {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;
 }
 
 .new-offer-description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
 }
 
 
@@ -270,9 +247,7 @@ main {
     height: 100%;
     display: flex;
     margin-right: 50px;
-    
-    
-    align-content: center;
+ align-content: center;
 
 
 }
@@ -282,8 +257,8 @@ main {
     border-radius: 375px;
     border: 15px solid #F00;
     padding: 48px;
-    
-     /* padding: 50px; */
+
+   
 
 
 }
@@ -296,19 +271,17 @@ main {
     color: #F00;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    
 }
 
 .year-description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
+  
 }
 
 .year-pic {
@@ -317,50 +290,57 @@ main {
 }
 
 /* holiday 50% */
-.holiday{
+.holiday {
     text-align: center;
 }
-.holiday-title{
+
+.holiday-title {
     color: #070211;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-margin-bottom: 16px;
-margin-top: 0px;
+    font-family: Inter;
+    font-size: 24px;
+ 
+    font-weight: 500;
+   
+    margin-bottom: 16px;
+    margin-top: 0px;
 
 }
-.holiday-heading{
+
+.holiday-heading {
     color: #070211;
-font-family: Merriweather;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-margin-top: 0px;
-margin-bottom: 28px;
+    font-family: Merriweather;
+    font-size: 72px;
+    
+    font-weight: 900;
+  
+    margin-top: 0px;
+    margin-bottom: 28px;
 
 }
-.holidays-style{
+
+.holidays-style {
 
     color: #F00;
-text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+   
+    font-weight: 900;
+    
 }
-.holiday-description{
+
+.holiday-description {
     color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 32px; /* 160% */
-margin-bottom: 64px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    
+    font-weight: 500;
+    line-height: 32px;
+    
+    margin-bottom: 64px;
+    padding-left: 126px;
+    padding-right: 126px;
 
 }
 
@@ -368,25 +348,28 @@ margin-bottom: 64px;
 .Holiday-image-section {
     background: url('../resources/Rectangle\ 2.png'), url('../resources/Rectangle\ 1.png');
     background-position: bottom, top right;
-    justify-content: last baseline , top right ;
+    justify-content: last baseline, top right;
     background-repeat: no-repeat;
     border-radius: 8px;
     /* background-size: cover; */
 }
-.Holiday-image{
+
+.Holiday-image {
     display: flex;
     justify-content: space-between;
-    
-}
-.left-image{
-    width: 60%;
-   
 
 }
-.right-image{
+
+.left-image {
+    width: 60%;
+
+
+}
+
+.right-image {
     padding-bottom: 250px;
     padding-right: 200px;
-   
+
 }
 
 
@@ -412,10 +395,10 @@ margin-bottom: 64px;
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
+    
     font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;
+   
+    
     margin: 16px 754px 0px 0px;
 
 }
@@ -424,11 +407,12 @@ margin-bottom: 64px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
+  
     font-weight: 400;
     line-height: 32px;
     /* 160% */
     margin: 22px 565px 48px 0px;
+
 
 }
 
@@ -447,11 +431,13 @@ margin-bottom: 64px;
 
 }
 
+/* subcribtion  */
 .subscription-box {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
     padding-bottom: 80px;
+
 }
 
 .mail-image {
@@ -467,10 +453,10 @@ margin-bottom: 64px;
     text-align: center;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
+
     font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;
+
+   
 }
 
 .subscription-description {
@@ -478,11 +464,18 @@ margin-bottom: 64px;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
+
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
     margin: 0px 212px 48px 212px;
+
+}
+
+.sub-input {
+    display: flex;
+    margin: 48px 336px 0px 336px;
+    font-family: Inter;
+    text-align: center;
 }
 
 .txt-input {
@@ -490,50 +483,51 @@ margin-bottom: 64px;
     border-bottom-left-radius: 50px;
     background: #FFF;
     color: rgba(7, 2, 17, 0.30);
-    text-align: center;
-    font-family: Inter;
+
+
     font-size: 18px;
-    font-style: normal;
+
     font-weight: 400;
-    line-height: normal;
-    padding: 25px 200px 25px 30px; 
+
+    padding: 25px 200px 25px 30px;
     border: none;
 }
 
 .btn-input {
-      border-radius: 0px 50px 50px 0px;
-      padding: 24px 56px;
-        
-        background: #F00;
-        color: #FFF;
-        text-align: center;
-        font-family: Inter;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        text-transform: capitalize;
-        /* padding: 25px 50px 25px 30px; */
-        /* padding: 0px 336px 80px 0px; */
-        border: none;
-        
+    border-radius: 0px 50px 50px 0px;
+    padding: 24px 56px;
 
-}
-.sub-input{
-    display: flex;
-    margin: 48px 336px 0px 336px;
+    background: #F00;
+    color: #FFF;
+
+
+    font-size: 20px;
+
+    font-weight: 600;
+
+
+
+    border: none;
+
+
 }
 
 
 
 
- /* footer-section */
- footer {
+
+/* footer-section */
+footer {
     background: #070211;
 }
 
 .footer-container {
     padding: 120px 140px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #FFF;
 
 }
 
@@ -545,48 +539,29 @@ margin-bottom: 64px;
 }
 
 .address {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 40px;
+
     padding-right: 400px;
     margin-bottom: 50px;
 
 }
 
-.email-number {
-    /* padding-right: 120px; */
-}
 
 .number {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 40px;
-    /* 166.667% */
+
     margin-top: 0px;
     margin-bottom: 0px;
 
 }
 
 .email {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 40px;
-    /* 166.667% */
+
     margin-top: 0px;
     margin-bottom: 0px;
 
 }
 
 .socile-link {
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -599,34 +574,14 @@ margin-bottom: 64px;
 
 
 
-hr{
+hr {
     background: rgba(255, 255, 255, 0.15);
 }
-.end{
+
+.end {
     display: flex;
     justify-content: space-between;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
 
 
-}
 
-.copy-right {
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-
-.subscribe {
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
 }
